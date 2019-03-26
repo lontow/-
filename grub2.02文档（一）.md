@@ -36,6 +36,7 @@
 3. `--target`  选项指定目标平台
 
 ### grub2.02 的 debug 设置
+-------
 
 ```shell
 	$ set timeout=-1
