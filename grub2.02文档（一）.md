@@ -3,14 +3,14 @@
 - 下载（在[官网](ftp://ftp.gnu.org/gnu/grub)下载）
 
 
- ```
+```shell
 	$ wget ftp://ftp.gnu.org/grub/grub-2.02.tar.gz
 ```
 
 - 编译
 
 
-```
+```shell
 	$ mkdir grub #建立工作目录
 	$ cd grub
 	$ tar xzvf grub-2.02.tar.gz #解压缩，解包
@@ -23,7 +23,7 @@
 
 - 安装
 
-```
+```shell
 	$ make install
 	$ grub-install --efi-directory=/boot/efi/ --bootloader-id=RainOS --target=x86_64-efi
 ```
@@ -38,7 +38,7 @@
 
 ### grub2.02 的 debug 设置
 
-```
+```shell
 	$ set timeout=-1
 	$ set pager=1
 	$ set debug=tags
