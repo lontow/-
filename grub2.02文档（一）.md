@@ -1,7 +1,7 @@
 ### grub2.02 的下载、编译和安装
 -------
-- 下载 [官网地址](ftp://ftp.gnu.org/gnu/grub) 
-
+- 下载 
+[官网地址](ftp://ftp.gnu.org/gnu/grub) 
 
 ```shell
 	$ wget ftp://ftp.gnu.org/grub/grub-2.02.tar.gz
