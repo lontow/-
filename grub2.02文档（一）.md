@@ -2,7 +2,7 @@
 -------
 - 下载 
 
-[官网地址](ftp://ftp.gnu.org/gnu/grub) 
+[官网地址](ftp://ftp.gnu.org/gnu/grub)
 
 ```shell
 	$ wget ftp://ftp.gnu.org/grub/grub-2.02.tar.gz
